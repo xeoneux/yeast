@@ -1,3 +1,22 @@
-node_modules
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Build directory
+build
+
+# Coverage directory
 coverage
-npm-debug.log
+
+# Documentation directory
+docs
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+node_modules
+
+# dotenv environment variables file
+.env

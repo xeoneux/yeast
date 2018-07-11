@@ -1,3 +1,17 @@
-coverage/
-test.js
-.*
+# Dotfiles
+.zuul.yml
+.travis.yml
+.nyc_output
+
+# Directories
+src
+docs
+coverage
+
+# Configurations
+tslint.json
+tsconfig.json
+tsconfig.module.json
+
+# Build test files
+**/*.spec.*
